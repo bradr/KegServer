@@ -1,0 +1,92 @@
+/*///////////////////////////////////////*
+
+	An exclusive script by Jigowatt
+	PHP Login by Christopher Balchin
+	Modified: 07/07/2009 Version: 1.0
+	Filename: PHP Login CSS
+	
+////////////////////////////////////////*/
+
+* { outline: none; }
+body { font: 62.5% "Lucida Grande", Arial, sans-serif; background-color: #f6f6f6; color: #777; }
+h1, h2, h3, h4, h5 { color:#222; }
+
+a { text-decoration: none; color: #08c; }
+a:hover { text-decoration: none; }
+
+h1 { font: 30px Arial, Helvetica, sans-serif; letter-spacing:-1px; padding:30px 0 0 0; margin: 0; }
+h2 { font:15px Arial, Helvetica, sans-serif; padding: 0  0 3px 0; margin-bottom: 0; }
+
+.list { margin: 0 auto; width: 380px; padding: 10px; background-color: #fff; }
+
+.exists { background: #FBE3E4 url(assets/cross.gif) no-repeat 98% center; border-color: #FBC2C4; color:#8a1f11; }
+.avail { background: #D6FFD8 url(assets/success.gif) no-repeat 98% center; border-color: #A0D997; color:#436213; }
+
+#main, #header, #footer {
+margin: 0 auto; width: 540px; margin-bottom: 10px; overflow: hidden; }
+
+#main { padding: 15px; width: 510px; border: 1px solid #cbcbcb; -moz-border-radius: 10px; -webkit-border-radius:10px; background:#fff; }
+#title { float: left; }
+#title a { color: #333; }
+
+#login { margin: 30px 0; float: right; }
+#logout { margin: 30px 0; float: right; }
+
+.error_message { display: block; height: 22px; line-height: 22px; background: #FBE3E4 url(assets/error.gif) no-repeat 10px center; padding: 3px 10px 3px 35px; margin: 3px 0; color:#8a1f11;border: 1px solid #FBC2C4; -moz-border-radius: 5px; -webkit-border-radius:5px; }
+
+.success_message { display: block; height: 22px; line-height: 22px; padding: 3px 10px 3px 35px; margin: 3px 0; color:#666; border: 1px solid #A0D997; -moz-border-radius: 5px; -webkit-border-radius:5px; background-color: #D6FFD8; background-image: url(assets/success.gif); background-repeat: no-repeat; background-position: 10px center; color:#436213; }
+
+#footer { text-align: right; font-size: 10px; }
+
+label { display:block; font-weight:bold; color:#888; font:10px Arial, Helvetica, sans-serif; text-transform:uppercase; margin:12px 0 4px; }
+
+input, textarea, select { padding:7px; border:1px solid #eee; font:16px Arial, Helvetica, sans-serif; width:490px; color:#999; -moz-border-radius:5px; -webkit-border-radius:5px; }
+
+input[type=submit], input.submit { width:auto; background:#08c; border:1px solid #06a; color:#fff; font-weight:bold; margin-top:15px; cursor:pointer; width:auto; -moz-border-radius:5px; -webkit-border-radius:5px; padding:5px; }
+
+input[type=submit]:hover, input[type=submit]:focus, input.submit:hover, input.submit:focus { background:#06a; color:#fff; }
+
+ul.success-reg { margin: 5px 0; padding:0; };
+ul.success-reg li { line-height: 25px; color: #999; list-style: none; }
+span.success-info { width: 70px; }
+
+input.edit_search { width:400px; }
+select { width:auto; }
+input:focus, textarea:focus { border-color:#ccc; color:#555; }
+
+ul.success-reg { margin:10px 10px 10px 0; font-size:120%; }
+
+ul.success-reg li { padding: 5px 0; list-style: none; color: #999; border-bottom:1px dotted #ccc; }
+
+ul.success-reg li span.success-info b { padding-right:5px; color:#222; display:inline-block; width:80px; }
+
+.credentials { width:149px; float:left; text-align: center; padding:0 5px; margin:10px 5px; border-right:1px dotted #ccc; }
+
+/* Form style */
+
+fieldset { padding:20px; border:1px solid #eee; -moz-border-radius: 5px; -webkit-border-radius:5px; }
+legend { padding:7px 10px; font-weight:bold; color:#000; border:1px solid #eee; -moz-border-radius: 5px; -webkit-border-radius:5px; }
+
+span.required{ font-size: 13px; color: #08c; }
+
+#succsess_page h1 { background: url('assets/success.gif') left no-repeat; padding-left:22px; }
+
+/* Buttons */
+
+a.admin { display:block; width:250px; height:52px; background:url(assets/btn_adminpanel.png) bottom no-repeat; text-indent:-9999px; float:left; margin-right:9px; margin-bottom:10px; }
+a.admin:hover { background-position:top; }
+
+a.protected { display:block; width:250px; height:52px; background:url(assets/btn_protected1.png) bottom no-repeat; text-indent:-9999px; float:left; margin-right:0px;}
+a.protected:hover { background-position:top; }
+a.protected2 { display:block; width:250px; height:52px; background:url(assets/btn_protected2.png) bottom no-repeat; text-indent:-9999px; float:left; margin-right:9px; margin-bottom:10px; }
+
+a.protected2:hover { background-position:top; }
+a.protected3 { display:block; width:250px; height:52px; background:url(assets/btn_protected3.png) bottom no-repeat; text-indent:-9999px; float:left; margin-right:0px; }
+a.protected3:hover { background-position:top; }
+
+a.register { display:block; width:509px; height:52px; background:url(assets/btn_register.png) bottom no-repeat; text-indent:-9999px; float:left; margin-right:0px; }
+a.register:hover { background-position:top; }
+
+.keglist { text-decoration: none; color: #777; }
+
+hr { height:1px; background:#ccc; border:none; }

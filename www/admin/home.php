@@ -1,0 +1,1 @@
+<? header("Location: ../home.php"); //To avoid file duplication we'll redirect to an existing homepage. ?>

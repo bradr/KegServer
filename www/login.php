@@ -1,0 +1,1 @@
+<? include('check.php'); // By including check, idf the user has no session it will show the login form. ?>

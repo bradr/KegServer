@@ -1,0 +1,51 @@
+/*///////////////////////////////////////*
+
+	An exclusive script by Jigowatt
+	PHP Login by Christopher Balchin
+	Modified: 07/07/2009 Version: 1.0
+	Filename: Control Panel CSS
+	
+////////////////////////////////////////*/
+
+#admin_main, #admin_header, #footer {
+margin: 0 auto; width: 540px; margin-bottom: 10px; overflow: hidden; }
+
+#admin_main { padding: 15px; width: 510px; border: 1px solid #cbcbcb; -moz-border-radius: 10px; -webkit-border-radius:10px; background:#fff; }
+#admin_title { float: left; }
+#admin_title a { color: #333; }
+
+span.add a { height:52px; width:250px; display:block; text-indent:-9999px; background:url(assets/add.png) bottom no-repeat; float:left; margin-top: 3px; }
+span.add a:hover { background-position:top; }
+
+span.addkeg a { height:52px; width:250px; display:block; text-indent:-9999px; background:url(assets/add_keg.png) bottom no-repeat; float:left; margin-top: 3px; }
+span.addkeg a:hover { background-position:top; }
+
+span.edit a { height:52px; width:250px; display:block; text-indent:-9999px; background:url(assets/edit.png) bottom no-repeat;  margin-left:259px !important; margin-left:257px; margin-top: 3px; }
+span.edit a:hover { background-position:top; }
+
+span.manage a { height:52px; width:510px; display:block; text-indent:-9999px; background:url(assets/manage.png) bottom no-repeat; float:left; margin-top:15px; }
+span.manage a:hover { background-position:top; }
+
+span.add_ul a { height:52px; width:250px; display:block; text-indent:-9999px; background:url(assets/add_ul.png) bottom no-repeat; float:left; margin-top: 3px; }
+span.add_ul a:hover { background-position:top; }
+
+span.edit_ul a { height:52px; width:250px; display:block; text-indent:-9999px; background:url(assets/edit_ul.png) bottom no-repeat;  margin-left:259px !important; margin-left:257px; margin-top: 3px; }
+span.edit_ul a:hover { background-position:top; }
+
+ul.column_result { margin: 5px 0; padding:0; }
+ul.column_result li { line-height: 25px; border-bottom: 1px dotted #ccc; list-style: none; }
+ul.column_result li a { display: block; color: #999; }
+ul.column_result li a:hover { background: #f8f8f8 url(./assets/pencil.gif) right center no-repeat; color: #08c; }
+
+span.result_column { display: inline-block; }
+
+.suggest_button { display: none; }
+.suggestions { display: block; padding: 7px; border-bottom: 1px dotted #ccc; }
+.suggest_link a { display: block; padding: 7px; border-bottom: 1px dotted #ccc; }
+.suggest_link a:hover { background: #f8f8f8 url(./assets/pencil.gif) 98% center no-repeat; }
+#search_suggest { position: relative; display: block; background-color: #FFF; margin: 10px 0; text-align: left; font: 16px Arial, Helvetica, sans-serif; width: 510px; color: #999; }
+
+.checkbox { width: auto; border: 0; padding: 0; margin: 0 0 0 5px; }
+
+.totals { display: inline-block; font: 14px Arial, Helvetica, sans-serif; padding: 7px 20px 0 3px; margin: 1px; }
+.totals b { font-size: 18px; color: #555; }

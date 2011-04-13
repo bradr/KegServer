@@ -1,0 +1,1 @@
+<? header("Location: ../logout.php"); //To avoid file duplication we'll redirect to an existing lgoout page. ?>
